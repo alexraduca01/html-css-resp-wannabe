@@ -130,6 +130,40 @@ img {
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .container {
+        padding: 0;
+    }
+    .lessons .col {
+        width: 100%;
+    }
+    .why-us {
+        background-color: #222222;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
+    .card {
+        margin-top: 10px;
+    }
+    .col-left > img {
+        transform: scale(1.5);
+    }
+    .why-us {
+        padding: 3rem 0;
+    }
+    .col-left, .col-right {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
 }
 
 /* TABLET */
